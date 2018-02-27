@@ -1,0 +1,29 @@
+事件源
+
+ 某一个对象的某种状态发生改变时，就会引发相应的时间。
+ 一个事件源可能会产生多个不同的事件。
+ 一个事件可以被多个事件监听者监听
+
+事件
+ 承载事件源状态改变时的信息对象
+ java.awt.event & java.swing.event 中定义了很多事件
+ 常用的事件有
+ ActionEvent
+ AdjustEvent
+ ComponentEvent
+ ContainerEvent
+ FocusEvent
+ ItemEvent
+ KeyEvent
+ MouseEvent
+ TextEvent
+ WindowEvent
+
+事件监听器（一个类，实现了事件监听器接口）
+ 不同的事件监听器接口，可以监听不同的监听
+ 一个类可以实现一个监听器接口，也可以实现多个监听接口
+
+ 1.编写事件处理类
+ 2.根据需要，给事件处理类实现监听接口
+ 3.在事件处理类中复写，事件处理函数
+ 4.在事件源类中，指定该事件的监听器

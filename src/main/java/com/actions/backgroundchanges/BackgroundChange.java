@@ -1,23 +1,23 @@
 /*
  * Learning ActionListeners
  */
-package com.actions;
+package com.actions.backgroundchanges;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ActionLearning extends JFrame implements ActionListener{
+public class BackgroundChange extends JFrame implements ActionListener{
 
     JPanel jp = new JPanel();
     JButton jb1,jb2;
 
     public static void main(String[] args) {
-        ActionLearning al = new ActionLearning();
+        BackgroundChange al = new BackgroundChange();
     }
 
-    public ActionLearning(){
+    public BackgroundChange(){
         jp = new JPanel();
         jb1 = new JButton("Black");
         jb2 = new JButton("Red");
