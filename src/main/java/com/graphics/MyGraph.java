@@ -26,7 +26,7 @@ public class MyGraph extends JPanel {
         g.setColor(Color.cyan);
         g.fillRect(100,100,50,50);
 
-        Image im = Toolkit.getDefaultToolkit().getImage("/Users/cuiyunqi/Desktop/HSP/Graphics/src/main/resources/new.png");
+        Image im = Toolkit.getDefaultToolkit().getImage("src/main/resources/new.png");
         g.drawImage(im,90,90,this);
 
         g.setColor(Color.cyan);

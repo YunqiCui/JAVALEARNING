@@ -12,6 +12,7 @@ public class BackgroundChange extends JFrame implements ActionListener{
 
     JPanel jp = new JPanel();
     JButton jb1,jb2;
+    int x;
 
     public static void main(String[] args) {
         BackgroundChange al = new BackgroundChange();
